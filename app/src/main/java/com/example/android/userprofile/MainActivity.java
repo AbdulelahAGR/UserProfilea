@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
         name = findViewById(R.id.name);
         birthdate = findViewById(R.id.birthday);
         country = findViewById(R.id.country);
+        // I am in git waaahoooo
 
         name.setText(getResources().getString(R.string.name));
         birthdate.setText(getResources().getString(R.string.birth_date));
